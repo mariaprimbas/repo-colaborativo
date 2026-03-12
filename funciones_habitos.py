@@ -45,8 +45,8 @@ def analizar_habitos(lista):
     diccionario= {}
     for actividad in lista: 
         if actividad not in diccionario: 
-            diccionario[actividad] = 1
+            diccionario[actividad] += 1
         else: 
-            diccionario[actividad] += 1 
+            diccionario[actividad] = 1 
     return diccionario
 
