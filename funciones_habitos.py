@@ -21,6 +21,7 @@ def registrar_habitos():
     pregunta = input("Desea agregar actividades?")
     while pregunta == "Si"    : 
         actividades = input("Ingresa una actividad: ")
+        pregunta = input("Desea agregar actividades?")
         continue
         if pregunta== "No":
             break
